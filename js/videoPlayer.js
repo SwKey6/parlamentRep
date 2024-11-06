@@ -3,9 +3,9 @@ const btnPause = document.getElementById('f8');
 const btnMute = document.getElementById('f9');
 const videoTitle = document.getElementById('f10');
 const videoText = document.getElementById('f11');
-const playlist=['video1', 'video2']
-const title=['Мы Мытищи', '8 марта']
-const text=['Пресс-центр', 'Пресс-центр']
+const playlist=['video1']
+const title=['Мы Мытищи']
+const text=['Пресс-центр']
 let count = 0;
 
 function play(){
