@@ -1,0 +1,241 @@
+*{
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
+body{
+    background: -webkit-linear-gradient(90deg, #dbbe88,#707070);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #dbbe88,#707070);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.containerImgs{
+    display: flex;
+}
+.TitleSection{
+    background-color: #323232;
+    width: 867px;
+    height: 194px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.title__first{
+    text-align: center;
+    padding-top: 73px;
+    font-size: 30px;
+}
+.OurIdeaSection{
+    background-color: #292929;
+    width: 867px;
+    height: 320px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.title__idea{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 30px;
+}
+.IdeaLi{
+    height: 20px;
+    margin-top: 5px;
+    font-weight: 100px;
+    font-size: 23px;
+}
+.PhotoSection{
+    background-color: #292929;
+    width: 867px;
+    height: 1992px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.title__sostav{
+    text-align: center;
+    padding-top: 20px;
+}
+.AdelinaName{
+    margin-left: 80px;
+}
+.AdelinaImg{
+    width: 243px;
+    height: 334px;
+    border-radius: 10px;
+    margin-left: 90px;
+    transition: 1s ease-out;
+}
+.IraImg{
+    margin-left: 120px;
+}
+.AdelinaImg:hover{
+    width: 300px;
+    height: 390px;
+}
+.title__heroes{
+    text-align: center;
+    padding-top: 20px;
+}
+.GlebName{
+    margin-left: 140px;
+}
+.title__We{
+    text-align: center;
+    padding-top: 20px;
+}
+.sousou{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.sousou1{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.header__ul{
+    display: flex;
+    align-items: center;
+}
+.header__li{
+    font-size: 25px;
+    list-style: none;
+    margin-left: 10px;
+}
+header{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.MainSection{
+    background-color: #414141;
+    width: 867px;
+    height: 440px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.title__about{
+    text-align: center;
+    padding-top: 10px;
+}
+.about__text{
+    text-align: center;
+}
+.CompositionSection{
+    background-color: #252525;
+    width: 867px;
+    height: 1440px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.MainPeoples{
+    text-align: center;
+    padding-top: 10px;
+}
+.EM{
+    margin-left: 120px;
+}
+.EMimg{
+    width: 300px;
+    height: 334px;
+    border-radius: 10px;
+    margin-left: 160px;
+    transition: 1s ease-out;
+}
+.EMimg:hover{
+    width: 340px;
+    height: 390px;
+}
+.ministersPhtotos{
+    width: 310px;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: 90px;
+    transition: 1s ease-out;
+}
+.ministersPhtotos:hover{
+    width: 340px;
+    height: 400px;
+}
+#f7{
+    width: 100%;
+}
+
+.videoContent{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+color: white;
+width: 100%;
+background-color: #23232350;
+padding: 20px;
+}
+
+.video{
+    position: relative;
+    background-color: #1d1d1d;
+    border-radius: 15px;
+}
+
+.video__btn{
+    border: none;   font-size: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    margin-left: 15px;
+    color: black;
+}
+
+.video__btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 25px;
+}
+
+.VideoContainer{
+    display: flex;
+    align-items: center;
+}
+.video__title{
+    text-align: center;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: black;
+  }
+  
+    .sendBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sendBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }

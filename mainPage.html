@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header__ul">
+                <li class="header__li"><a href="news.html">Новости</a></li>
+                <li class="header__li"><a href="" target="_blank">SwKey</a></li>
+                <li class="header__li"><a href="mainPage.html">Главная</a></li>
+                <li class="header__li"><a href="index.html">Правопорядок</a></li>
+                <li class="header__li"><a href="">Культура</a></li>
+                <li class="header__li"><a href="">Пресс-центр</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="TitleSection">
+            <div class="container">
+             <h1 class="title__first">Школьный парламент школы №3 г.о Мытищи представляет</h1>
+            </div>
+         </section>
+        <section class="MainSection">
+            <div class="container">
+                <h1 class="title__about">О нас:</h1>
+                <p class="about__text">Здравствуйте!
+
+                   <p class="about__text"> Мы, парламент школы №3, хотели бы выразить свою благодарность за то, что вы обратили на нас внимание. Мы действительно занимаемся множеством важных дел, направленных на улучшение школьной жизни.
+                    
+                   <p class="about__text"> Как парламент, мы занимаем различные должности и выполняем разные задачи. Среди них:
+                    организация мероприятий; поддержание дисциплины;
+                    медиа продвижение; пропаганда спорта и здорового образа жизни;
+                    
+                 <p class="about__text">   помощь педагогам и ученикам в решении различных проблем.
+                    
+                 <p class="about__text">   Наша цель — сделать школьную жизнь как можно лучше. Мы стремимся создать комфортное и безопасное пространство, где каждый ученик и педагог будут чувствовать себя важными и ценными.
+                    
+                 <p class="about__text">   Если у вас есть какие-либо вопросы или предложения, не стесняйтесь обращаться к нам. Мы всегда готовы помочь и выслушать.</p>
+             </div>
+        </section>
+        <section class="CompositionSection">
+            <div class="container">
+                <h2 class="MainPeoples">Наш руководящий состав:</h1>
+                <div class="containerImgs">
+                    <div class="EM">
+                        <h3 class="EM">Президент парламента - Екатерина Михайловна</h3>
+                        <img src="img/EMimg.jpg" alt="Екатерина Михайловна" class="EMimg">
+                    </div>
+                </div>
+                <div class="containerImgs">
+                    <div class="Ylyana">
+                        <h3 class="EM"> Министр Пресс-центра - Виноградова Ульяна</h3>
+                        <img src="img/Ульянаimg.jpg" alt="Ульяна" class="ministersPhtotos">
+                    </div>
+                    <div class="Adelina">
+                        <h3 class="EM"> Министр Правопорядка - Корчага Аделина</h3>
+                        <img src="img/Odel1.jpg" alt="Аделина" class="ministersPhtotos">
+                    </div>
+                </div>
+                <div class="containerImgs">
+                    <div class="Lina">
+                        <h3 class="EM"> Министр Культуры - Раджабова Лина</h3>
+                        <img src="img/IMG_1340.jpg" alt="Лина" class="ministersPhtotos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h1 class="video__title">Видеоплеер</h1>
+            <video id="f7"  autoplay muted loop>
+                <source src="videos/video1.mp4">
+            </video>
+
+            <div class="videoContent">
+                <div class="Container VideoContainer">
+                    <div class="add">
+                        <h1 class="title__video" id="f10">Мы Мытищи</h1>
+                        <p class="text__video" id="f11">Пресс-центр</p>
+                    </div>
+                    <div class="btnDiv">
+                        <button class="video__btn" id="f8" onclick="play()">Пауза</button>
+                        <button class="video__btn" id="f9" onclick="mute()">Вкл</button>
+                        <button class="video__btn" onclick="last()">Предыдущее</button>
+                        <button class="video__btn" onclick="next()">Следующее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/videoPlayer.js"></script>
+
+    <footer>
+        <h1 style="text-align: center;">2024. <a href="" target="_blank">SwKey</a></h1>
+    </footer>
+</body>
+</html>
