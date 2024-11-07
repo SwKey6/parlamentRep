@@ -29,7 +29,7 @@ body{
 .OurIdeaSection{
     background-color: #292929;
     width: 867px;
-    height: 320px;
+    height: 370px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -58,7 +58,15 @@ body{
 .PhotoSection{
     background-color: #292929;
     width: 867px;
-    height: 1992px;
+    height: 2030px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.PhotoSectionPress{
+    background-color: #292929;
+    width: 867px;
+    height: 2700px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
