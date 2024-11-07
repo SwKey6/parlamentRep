@@ -104,7 +104,7 @@ body{
     margin-left: 10px;
 }
 header{
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 .MainSection{
@@ -209,33 +209,22 @@ padding: 20px;
     font-weight: 400;
     font-style: normal;
   }
-  textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    color: black;
+
+  .News{
+    background-color: #252525;
+    width: 867px;
+    height: 580px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
   }
-  
-    .sendBtn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+  .news__title{
+    text-align: center;
   }
-  
-  .sendBtn:hover {
-    background-color: #45a049;
-  }
-  
-  .post {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+
+  .news__text{
+    padding-left: 25px;
+    padding-right: 25px;
   }

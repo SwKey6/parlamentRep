@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News App</title>
+    <title>Новости</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
 </head>
-<body style="color: black;">
-    <h1>News App</h1>
+<body>
+  <header>
+    <nav>
+        <ul class="header__ul">
+            <li class="header__li"><a href="index.html">Главная</a></li>
+            <li class="header__li"><a href="pravo.html">Правопорядок</a></li>
+            <li class="header__li"><a href="">Культура</a></li>
+            <li class="header__li"><a href="press.html">Пресс-центр</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <form id="postForm">
-      <input type="text" id="title" placeholder="Title" required>
-      <textarea id="content" placeholder="Content" required></textarea>
-      <input type="password" id="password" placeholder="Password" required> <!-- Поле для пароля -->
-      <button type="submit">Post</button>
-    </form>
+  <main>
+    <section class="TitleSection">
+      <div class="container">
+       <h1 class="title__first">Новости школы №3 г.о Мытищи</h1>
+      </div>
+   </section>
 
-    <div id="postsList" style="color: black;"></div>
+   <section class="News News1">
+    <div class="container">
+      <h1 class="news__title">Новый год в нашей школе!</h1>
 
-    <script src="news.js"></script>
+      <p class="news__text">Дорогие ученики и учителя!</p>
+
+      <p class="news__text">Скоро наступит долгожданный Новый год, и в нашей школе уже начинаются праздничные приготовления! Мы готовимся встретить этот чудесный праздник с радостью и волшебством. Вот что вас ожидает:</p>
+
+      <p class="news__text">Новая мелодия на звонках! В честь праздника, чтобы создать атмосферу веселья и новогоднего настроения, мы меняем мелодию звонков. Будьте готовы к музыкальным сюрпризам!</p>
+
+      <p class="news__text">Ёлки в классах! В каждом классе будут установлены красивые новогодние ёлки, которые будут радовать всех своим сиянием и атмосферой праздника.</p>
+
+      <p class="news__text">Украшение классов! Наши классы наряжаются в яркие огоньки, гирлянды и снежинки, превращаясь в настоящие зимние чудеса.</p>
+
+      <p class="news__text">Праздничные мероприятия! Мы готовим для вас праздничные мероприятия, игры и конкурсы, которые подарят всем отличное настроение.</p>
+
+      <p class="news__text">Давайте вместе создавать новогоднюю атмосферу и встречать самый волшебный праздник года с улыбками и хорошим настроением!</p>
+
+      <p class="news__text">07.11.24 Деревянко Глеб</p>
+    </div>
+   </section>
+
+  </main>
+
+  <footer>
+    <h1 style="text-align: center;">2024. <a href="" target="_blank">SwKey</a></h1>
+</footer>
 </body>
 </html>
