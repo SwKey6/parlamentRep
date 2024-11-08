@@ -4,7 +4,7 @@
     font-weight: 400;
 }
 body{
-    background: -webkit-linear-gradient(90deg, #dbbe88,#707070);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #dbbe88,#707070);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    background: -webkit-linear-gradient(90deg, #fa7373,#85fa73);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #fa7373,#85fa73);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                
 }
 .container{
     max-width: 1100px;
@@ -29,7 +29,7 @@ body{
 .OurIdeaSection{
     background-color: #292929;
     width: 867px;
-    height: 370px;
+    height: 330px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -38,7 +38,16 @@ body{
 .OurIdeaSectionPress{
     background-color: #292929;
     width: 867px;
-    height: 550px;
+    height: 420px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.OurIdeaSectionKylt{
+    background-color: #292929;
+    width: 867px;
+    height: 620px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -54,16 +63,25 @@ body{
     margin-top: 5px;
     font-weight: 100px;
     font-size: 23px;
+    font-family: "Montserrat", sans-serif;
 }
 .PhotoSection{
     background-color: #292929;
     width: 867px;
-    height: 2030px;
+    height: 3500px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
 }
 .PhotoSectionPress{
+    background-color: #292929;
+    width: 867px;
+    height: 2700px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.PhotoSectionKylt{
     background-color: #292929;
     width: 867px;
     height: 2700px;
@@ -127,7 +145,7 @@ header{
 .MainSection{
     background-color: #414141;
     width: 867px;
-    height: 440px;
+    height: 410px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -139,6 +157,7 @@ header{
 }
 .about__text{
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 .CompositionSection{
     background-color: #252525;
@@ -230,18 +249,40 @@ padding: 20px;
   .News{
     background-color: #252525;
     width: 867px;
-    height: 580px;
+    height: 500px;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 24px;
   }
+  .News2{
+    height: 400px;
+  }
 
   .news__title{
     text-align: center;
+    font-size: 35px;
   }
 
   .news__text{
     padding-left: 25px;
     padding-right: 25px;
+    font-family: "Montserrat", sans-serif;
   }
+  .news__text__finall{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .montserrat-small {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .pDevis{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+  
