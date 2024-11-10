@@ -76,7 +76,7 @@ body{
 .PhotoSection{
     background-color: #303030;
     width: 867px;
-    height: 3500px;
+    height: auto;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -84,7 +84,7 @@ body{
 .PhotoSectionPress{
     background-color: #292929;
     width: 867px;
-    height: 2700px;
+    height: auto;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -92,7 +92,7 @@ body{
 .PhotoSectionKylt{
     background-color: #292929;
     width: 867px;
-    height: 2700px;
+    height: auto;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -170,7 +170,7 @@ header{
 .CompositionSection{
     background-color: #3b3b3b;
     width: 867px;
-    height: 1440px;
+    height: auto;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
@@ -213,10 +213,10 @@ header{
     position: absolute;
     z-index: 1;
     bottom: 0;
-color: white;
-width: 100%;
-background-color: #2e2c2c50;
-padding: 20px;
+    color: white;
+    width: 100%;
+    background-color: #2e2c2c50;
+    padding: 20px;
 }
 
 .video{
@@ -257,14 +257,11 @@ padding: 20px;
   .News{
     background-color: #333131;
     width: 867px;
-    height: 500px;
+    height: auto;
     max-width: 1100px;
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 24px;
-  }
-  .News2{
-    height: 400px;
   }
 
   .news__title{
@@ -343,4 +340,43 @@ padding: 20px;
   }
   .iframePred{
     margin-left: 110px;
+  }
+
+  .MainRecSection{
+    background-color: #474747;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .UnitRec{
+    max-width: 390px;
+    background-color: #696969;
+    border-radius: 10px;
+    margin: 10px; /* Добавьте отступы между блоками */
+    padding: 10px; /* Добавьте padding для внутреннего отступа */
+  }
+
+  .Rec__title{
+    text-align: center;
+    font-size: 20px;
+  }
+  .Rec__text{
+    font-family: "Montserrat", sans-serif;
+    padding-left: 15px;
+  }
+  .Rec__Name{
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .containerRec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Выравнивание элементов по верхнему краю */
   }
