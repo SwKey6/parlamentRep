@@ -1,0 +1,424 @@
+*{
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
+body{
+    background: -webkit-linear-gradient(90deg, #fa7373,#85fa73);
+    background: linear-gradient(90deg, #fa7373,#85fa73);                                                                             
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.TitleSection{
+    background-color: #323232;
+    width: 867px;
+    height: 194px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.TitleSectionPred{
+    background-color: #323232;
+    width: 867px;
+    height: 210px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.card {
+  width: 250px;
+  padding: 16px;
+  margin: 12px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center; /* Центрирует всё внутри */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирует по горизонтали */
+}
+
+.card-img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.card-role {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 1em;
+  color: #555;
+}
+.title__first{
+    text-align: center;
+    padding-top: 73px;
+    font-size: 30px;
+}
+.OurIdeaSection{
+    background-color: #464545;
+    width: 867px;
+    height: 330px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.OurIdeaSectionPress{
+    background-color: #474747;
+    width: 867px;
+    height: 420px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.OurIdeaSectionKylt{
+    background-color: #414040;
+    width: 867px;
+    height: 620px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.title__idea{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 30px;
+}
+.IdeaLi{
+    height: 20px;
+    margin-top: 5px;
+    font-weight: 100px;
+    font-size: 23px;
+    font-family: "Lato", sans-serif;
+}
+.PhotoSection{
+    background-color: #303030;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.PhotoSectionPress{
+    background-color: #292929;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.PhotoSectionKylt{
+    background-color: #292929;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.title__sostav{
+    text-align: center;
+    padding-top: 20px;
+}
+.AdelinaName{
+    margin-left: 80px;
+}
+.AdelinaImg{
+    width: 243px;
+    height: 334px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.IraImg{
+    margin-left: 120px;
+}
+.title__heroes{
+    text-align: center;
+    padding-top: 20px;
+}
+.GlebName{
+    margin-left: 140px;
+}
+.title__We{
+    text-align: center;
+    padding-top: 20px;
+}
+.sousou{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.sousou1{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.header__ul{
+    display: flex;
+    align-items: center;
+}
+.header__li{
+    font-size: 25px;
+    list-style: none;
+    margin-left: 10px;
+}
+header{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.MainSection{
+    background-color: #414141;
+    width: 867px;
+    height: 410px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.title__about{
+    text-align: center;
+    padding-top: 10px;
+}
+.about__text{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.CompositionSection{
+    background-color: #3b3b3b;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.MainPeoples{
+    text-align: center;
+    padding-top: 10px;
+}
+.containerImgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ministerCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2a2a2a; /* Можно убрать */
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.ministerName {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  white-space: normal;
+  width: 100%;
+}
+
+.ministersPhtotos {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.EMimg{
+    width: 300px;
+    height: 334px;
+    border-radius: 10px;
+    margin-left: 160px;
+}
+.ministersPhtotos{
+    width: 310px;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+#f7{
+    width: 100%;
+}
+
+.videoContent{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    background-color: #2e2c2c50;
+    padding: 20px;
+}
+
+.video{
+    position: relative;
+    background-color: #1d1d1d;
+    border-radius: 15px;
+}
+
+.video__btn{
+    border: none;   font-size: 15px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    color: black;
+}
+
+.VideoContainer{
+    display: flex;
+    align-items: center;
+}
+.video__title{
+    text-align: center;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .News{
+    background-color: #333131;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+  .news__title{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .news__text{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Lato", sans-serif;
+  }
+  .news__text__finall{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .montserrat-small {
+    font-family: "Monseratt", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .pDevis{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+  }
+  
+  .addSection{
+    background-color: #242323;
+    width: 867px;
+    height: 200px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .RecomendBtn{
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size : 20px;
+  }
+  .PredlojkaBtn{
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+    font-size : 20px;
+    margin-left: 20px;
+  }
+  .pPred{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  .PredlojkaSection{
+    background-color: #474747;
+    width: 867px;
+    height: 1160px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .PredlojkaSection2{
+    background-color: #474747;
+    width: 867px;
+    height: 1460px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .iframePred{
+    margin-left: 110px;
+  }
+
+  .MainRecSection{
+    background-color: #474747;
+    width: 867px;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .UnitRec{
+    max-width: 390px;
+    background-color: #696969;
+    border-radius: 10px;
+    margin: 10px; /* Добавьте отступы между блоками */
+    padding: 10px; /* Добавьте padding для внутреннего отступа */
+  }
+
+  .Rec__title{
+    text-align: center;
+    font-size: 20px;
+  }
+  .Rec__text{
+    font-family: "Lato", sans-serif;
+    padding-left: 15px;
+  }
+  .Rec__Name{
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .containerRec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Выравнивание элементов по верхнему краю */
+  }
+
+  .lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

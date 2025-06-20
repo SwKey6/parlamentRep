@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header__ul">
+                <li class="header__li"><a href="{% url "news" %}">Новости</a></li>
+                <li class="header__li"><a href="{% url "pravo" %}">Правопорядок</a></li>
+                <li class="header__li"><a href="{% url "culture" %}">Культура</a></li>
+                <li class="header__li"><a href="{% url "pressa" %}">Пресс-центр</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block content %}
+    
+    {% endblock content %}
+
+    <footer>
+        <h1 style="text-align: center;">2024. <a href="https://github.com/SwKey6" target="_blank">SwKey</a></h1>
+    </footer>
+</body>
+</html>
